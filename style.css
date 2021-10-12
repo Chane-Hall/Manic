@@ -1,0 +1,56 @@
+body {
+	margin :0px;
+}
+
+img#background{
+	position: fixed;
+	z-index:-100;
+	top:0px;
+	width: 100%;
+}
+
+
+#logo{
+	position: fixed;
+	z-index:-100;
+	top:5%;
+	left:5%;
+}
+.page{
+	position:absolute;
+	z-index:-1;
+	top:5%;
+	width : 90%;
+	height: 90%;
+}
+.page img{
+	margin: 150px;
+}
+
+#home{
+	left:0%;
+}
+#menu{
+	left:100%;
+}
+#about{
+	left:100%;
+}
+#merch{
+	left:100%;
+}
+#project1{
+	left:100%;
+}
+#project2{
+	left:100%;
+}
+#project3{
+	left:100%;
+}
+
+/*
+#4c5760
+#ffd046
+#eeeee
+*/
