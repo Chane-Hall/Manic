@@ -1,5 +1,9 @@
 body {
 	margin :0px;
+	padding:0px;
+	color: #eeeeee;
+	overflow: hidden;
+  position: relative;
 }
 
 img#background{
@@ -10,34 +14,62 @@ img#background{
 }
 
 
-#logo{
-	position: fixed;
-	z-index:-100;
-	top:5%;
-	left:5%;
+button{
+	background-color: black;
+	color: white;
+	height: 50px;
+	width: 80px;
+	margin: 2%;
+	border: 0px;
 }
 .page{
-	position:absolute;
-	z-index:-1;
-	top:5%;
-	width : 90%;
-	height: 90%;
-}
-.page img{
-	margin: 150px;
+	position: absolute;
+	z-index: -10;
+	top:0%;
+	width : 100%;
+	height: 100%;
+	text-align: center;
 }
 
 #home{
 	left:0%;
 }
+#backgrounds{
+	position: absolute;
+	z-index:-90;
+	top:0px;
+	left:0px;
+	width: 100%;
+}
+
 #menu{
-	left:-100%;
+	left:100%;
+	top:0px;
+	margin:0px;
+	padding:0px;
+}
+#menu img{
+	margin:0px;
+	width: 100%;
+}
+#manicM{
+	
 }
 #about{
 	left:-100%;
 }
+#about img {
+	margin-top : 1%;
+}
+#about img#logo {
+	margin-top : 0%;
+}
 #merch{
+	padding-top: 17%;
 	left:-100%;
+}
+#merch img{
+	
 }
 #project1{
 	left:-100%;
