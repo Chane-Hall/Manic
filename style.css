@@ -5,6 +5,13 @@ body {
 	overflow: hidden;
   position: relative;
 }
+#background{
+	position: absolute;
+	z-index:-100;
+	top:0%;
+	left:0%;
+	width: 100%;
+}
 
 #menuB{
 	background-color: black;
@@ -37,35 +44,29 @@ body {
 #aboutB{
 	position: absolute;
 	z-index:-80;
-	top:330%;
-	left:35%;
-	width: 8%;
+	top:375%;
+	left:34%;
+	width: 10%;
 	height: 140%;
-	background-color: rgba(0,0,0,0);
+	/*background-color: rgba(0,0,0,0);
 	border: 0px;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0);*/
 }
 #MerchB{
 	position: absolute;
 	z-index:-80;
-	top:480%;
+	top:510%;
 	left:68%;
-	width: 13%;
-	height: 120%;
-	background-color: rgba(0,0,0,0);
-	border: 0px;
-	color: rgba(0,0,0,0);
+	width: 16%;
+	height: 110%;
 }
 #ProjectsB{
 	position: absolute;
 	z-index:-80;
-	top:215%;
-	left:69%;
-	width: 21%;
+	top:250%;
+	left:58%;
+	width: 23%;
 	height: 140%;
-	background-color: rgba(0,0,0,0);
-	border: 0px;
-	color: rgba(0,0,0,0);
 }
 
 
