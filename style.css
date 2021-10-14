@@ -6,16 +6,9 @@ body {
   position: relative;
 }
 
-img#background{
-	position: fixed;
-	z-index:-100;
-	top:0px;
-	width: 100%;
-}
-
-
-button{
+#menuB{
 	background-color: black;
+	transform: rotate(270deg);
 	color: white;
 	height: 50px;
 	width: 80px;
@@ -24,62 +17,67 @@ button{
 }
 .page{
 	position: absolute;
-	z-index: -10;
-	top:0%;
+	z-index: -100;
 	width : 100%;
 	height: 100%;
-	text-align: center;
 }
 
-#home{
-	left:0%;
-}
 #backgrounds{
 	position: absolute;
 	z-index:-90;
-	top:0px;
-	left:0px;
+	top:0%;
+	left:0%;
 	width: 100%;
 }
 
 #menu{
-	left:100%;
-	top:0px;
-	margin:0px;
-	padding:0px;
+	left:0%;
+	top:0%;
 }
-#menu img{
-	margin:0px;
-	width: 100%;
+#aboutB{
+	position: absolute;
+	z-index:-80;
+	top:350%;
+	left:35%;
+	width: 8%;
+	height: 100%;
 }
-#manicM{
-	
+#MerchB{
+	position: absolute;
+	z-index:-80;
+	top:500%;
+	left:68%;
+	width: 13%;
+	height: 70%;
 }
+#ProjectsB{
+	position: absolute;
+	z-index:-80;
+	top:233%;
+	left:69%;
+	width: 21%;
+	height: 100%;
+}
+
+
+
+
+
 #about{
-	left:-100%;
+	left:0%;
+	top:-780%;
 }
-#about img {
-	margin-top : 1%;
-}
-#about img#logo {
-	margin-top : 0%;
-}
+
 #merch{
-	padding-top: 17%;
 	left:-100%;
+	top:0%;
 }
-#merch img{
-	
-}
+
 #project1{
-	left:-100%;
+	left:0%;
+	top:700%;
 }
-#project2{
-	left:-100%;
-}
-#project3{
-	left:-100%;
-}
+
 
 /*
 #4c5760
@@ -89,11 +87,65 @@ button{
 
 
 
-@keyframes example {
+@keyframes right {
   from {left: 100%;}
   to {left: 0%;}
 }
 
-.classhelp{
-	animation: example 1.0s forwards;
+@keyframes left {
+  from {left: -100%;}
+  to {left: 0%;}
+}
+@keyframes top {
+  from {top: -700%;}
+  to {top: 0%;}
+}
+@keyframes bottom {
+  from {top: 700%;}
+  to {top: 0%;}
+}
+
+
+.rightC{
+	animation: right 1.0s forwards;
+}
+.leftC{
+	animation: left 1.0s forwards;
+}
+.topC{
+	animation: top 1.0s forwards;
+}
+.bottomC{
+	animation: bottom 1.0s forwards;
+}
+
+@keyframes rightOut {
+  from {left: 0%;}
+  to {left: 100%;}
+}
+
+@keyframes leftOut {
+  from {left: 0%;}
+  to {left: -100%;}
+}
+@keyframes topOut {
+  from {top: 0%;}
+  to {top: -700%;}
+}
+@keyframes bottomOut {
+  from {top: 0%;}
+  to {top: 700%;}
+}
+
+.rightO{
+	animation: rightOut 1.0s forwards;
+}
+.leftO{
+	animation: leftOut 1.0s forwards;
+}
+.topO{
+	animation: topOut 1.0s forwards;
+}
+.bottomO{
+	animation: bottomOut 1.0s forwards;
 }
