@@ -130,11 +130,11 @@ body {
 }
 @keyframes topOut {
   from {top: 0%;}
-  to {top: -700%;}
+  to {top: -800%;}
 }
 @keyframes bottomOut {
   from {top: 0%;}
-  to {top: 700%;}
+  to {top: 800%;}
 }
 
 .rightO{
