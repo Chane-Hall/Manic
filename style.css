@@ -41,6 +41,9 @@ body {
 	left:35%;
 	width: 8%;
 	height: 140%;
+	background-color: rgba(0,0,0,0);
+	border: 0px;
+	color: rgba(0,0,0,0);
 }
 #MerchB{
 	position: absolute;
@@ -49,6 +52,9 @@ body {
 	left:68%;
 	width: 13%;
 	height: 120%;
+	background-color: rgba(0,0,0,0);
+	border: 0px;
+	color: rgba(0,0,0,0);
 }
 #ProjectsB{
 	position: absolute;
@@ -57,6 +63,9 @@ body {
 	left:69%;
 	width: 21%;
 	height: 140%;
+	background-color: rgba(0,0,0,0);
+	border: 0px;
+	color: rgba(0,0,0,0);
 }
 
 
