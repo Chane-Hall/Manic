@@ -131,3 +131,12 @@ function printMousePos(event) {
 function scrollF(){
 	console.log("scroll");
 }
+
+
+
+
+function menuBut2(){
+  //document.getElementById('buttttt').classList.add("classhelp");
+  var element = document.getElementById("menu");
+  element.classList.add("classhelp");
+}
