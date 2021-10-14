@@ -86,3 +86,14 @@ button{
 #ffd046
 #eeeee
 */
+
+
+
+@keyframes example {
+  from {left: 100%;}
+  to {left: 0%;}
+}
+
+.classhelp{
+	animation: example 1.0s forwards;
+}
