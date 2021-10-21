@@ -80,11 +80,9 @@ function playvid6(){
 
 /*
 var abouttomerch = document.getElementById("abouttomainv");
-
 function playvid7(){
 	abouttomerch.style.opacity = 1;
 	abouttomerch.play();
-
 	abouttomerch.addEventListener('ended',myHandler,false);
 	function myHandler(e){
 		setTimeout(function(){ abouttomerch.style.opacity = 0; }, 2000);
@@ -192,4 +190,4 @@ function playvid14(){
 	function myHandler(e){
 		setTimeout(function(){ window.location.href = "project.html"; }, 500);
 	}
-}
+} 
