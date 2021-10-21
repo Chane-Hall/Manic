@@ -1,8 +1,10 @@
-const swup = new Swup({
-  plugins: [new SwupPreloadPlugin()]
-});
 window.onload = function(){
-	console.log("Page Loaded, preloading pages");
+	
+	console.log("Page Loaded, loading plugin");
+	const swup = new Swup({
+  		plugins: [new SwupPreloadPlugin()]
+	});
+	console.log("Preloading pages");
 	swup.preloadPages();	
 }
 //VIDEOS ON MAIN MENU PAGE
