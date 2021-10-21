@@ -4,6 +4,7 @@ const swup = new Swup({
 });
 
 window.onload = function(){
+	console.log("Page Loaded, preloading pages");
 	swup.preloadPages();	
 }
 //VIDEOS ON MAIN MENU PAGE
