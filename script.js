@@ -1,8 +1,6 @@
-
 const swup = new Swup({
   plugins: [new SwupPreloadPlugin()]
 });
-
 window.onload = function(){
 	console.log("Page Loaded, preloading pages");
 	swup.preloadPages();	
