@@ -4,7 +4,7 @@ const swup = new Swup({
 });
 
 window.onload = function(){
-	swup.preloadPages;	
+	swup.preloadPages();	
 }
 //VIDEOS ON MAIN MENU PAGE
 //Video from Main Menu to Merch Page
