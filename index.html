@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Manic</title>
+		<link rel="stylesheet" href="style.css">
+	
+	</head>
+
+<body>
+	<main class="page">
+		<img id="background" src="images/MainMenu.png" alt="background">
+
+		<video id="maintomerchv" playsinline muted>
+			<source src="videos/maintomerch.mp4" type="video/mp4">
+		</video>
+
+		<video id="maintoaboutv" playsinline>
+			<source src="videos/maintoabout.mp4" type="video/mp4">
+		</video>
+
+		<video id="maintoprojectsv" playsinline muted>
+			<source src="videos/maintoprojects.mp4" type="video/mp4">
+		</video>
+
+		<video id="maintocontactv" playsinline muted>
+			<source src="videos/maintocontact.mp4" type="video/mp4">
+		</video>
+
+		<button onclick="playvid1()" id="merchB" type="button">merch</button>
+		<button onclick="playvid2()" id="aboutB" type="button">about</button>
+		<button onclick="playvid3()" id="projB" type="button">project</button>
+		<button onclick="playvid4()" id="contactB" type="button">contact</button>
+		
+		
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
