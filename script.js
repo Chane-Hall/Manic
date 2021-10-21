@@ -1,5 +1,4 @@
-//VIDEOS ON MAIN MENU PAGE
-//Video from Main Menu to Merch Page
+
 const swup = new Swup({
   plugins: [new SwupPreloadPlugin()]
 });
@@ -7,7 +6,8 @@ const swup = new Swup({
 window.onload = function(){
 	swup.preloadPages;	
 }
-
+//VIDEOS ON MAIN MENU PAGE
+//Video from Main Menu to Merch Page
 var maintomerch = document.getElementById("maintomerchv");
 
 function playvid1(){
