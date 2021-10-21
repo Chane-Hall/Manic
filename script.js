@@ -4,6 +4,10 @@ const swup = new Swup({
   plugins: [new SwupPreloadPlugin()]
 });
 
+window.onload = function(){
+	swup.preloadPages;	
+}
+
 var maintomerch = document.getElementById("maintomerchv");
 
 function playvid1(){
