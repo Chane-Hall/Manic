@@ -1,12 +1,3 @@
-window.onload = function(){
-	
-	console.log("Page Loaded, loading plugin");
-	const swup = new Swup({
-  		plugins: [new SwupPreloadPlugin()]
-	});
-	console.log("Preloading pages");
-	swup.preloadPages();	
-}
 //VIDEOS ON MAIN MENU PAGE
 //Video from Main Menu to Merch Page
 var maintomerch = document.getElementById("maintomerchv");
@@ -201,4 +192,13 @@ function playvid14(){
 	function myHandler(e){
 		setTimeout(function(){ window.location.href = "project.html"; }, 500);
 	}
+}
+window.onload = function(){
+	
+	console.log("Page Loaded, loading plugin");
+	const swup = new Swup({
+  		plugins: [new SwupPreloadPlugin()]
+	});
+	console.log("Preloading pages");
+	swup.preloadPages();	
 }
