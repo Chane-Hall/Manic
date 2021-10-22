@@ -240,7 +240,7 @@ video{
 
 
 merchB:hover, projB:hover, aboutB:hover, contactB:hover, a:hover, button:hover {
-	cursor: url('https://github.com/Chane-Hall/Manic/blob/main/images/cursor2.png?raw=true'), auto;	
+	cursor: cell;	
 }
 img:hover{
 	cursor: url('https://github.com/Chane-Hall/Manic/tree/main/images/cursor1.png'), auto;
