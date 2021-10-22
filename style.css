@@ -5,7 +5,7 @@ body {
 	overflow: hidden;
   	position: relative;
 	background-color: black;
-	cursor: url('Manic/images/cursor1.png'), auto;
+	cursor: url('/Manic/images/cursor1.png'), auto;
 }
 
 .page{
@@ -241,5 +241,5 @@ video{
 
 
 merchB:hover, projB:hover, aboutB:hover, contactB:hover, a:hover, button:hover {
-	cursor: url('Manic/images/cursor2.png'), auto;	
+	cursor: url('/Manic/images/cursor2.png'), auto;	
 }
