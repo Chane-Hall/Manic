@@ -253,21 +253,21 @@ button:hover{
 	height: 200px;
 }
 #proImg1{
-	height: 100px;
-	margin-top: 250px;
-	margin-left: 250px;
+	height: 80px;
+	margin-top: 50%;
+	margin-left: 20%;
 }
 
 #proImg2{
-	height: 100px;
-	margin-top: 350px;
-	margin-left: 250px;
+	height: 80px;
+	margin-top: 80%;
+	margin-left: 20%;
 }
 
 #proImg3{
-	height: 100px;
-	margin-top: 200px;
-	margin-left: 250px;
+	height: 80px;
+	margin-top: 70%;
+	margin-left: 20%;
 }
 
 
