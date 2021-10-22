@@ -153,6 +153,9 @@ function playvid10(){
 var projtomain = document.getElementById("projtomainv");
 
 function playvid11(){
+	 document.getElementById("proImg1").style.display = "none";
+	 document.getElementById("proImg2").style.display = "none";
+	 document.getElementById("proImg3").style.display = "none";
 	projtomain.style.display = "block";
 	projtomain.play();
 
