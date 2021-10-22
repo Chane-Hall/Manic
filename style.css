@@ -257,6 +257,7 @@ button:hover{
 	position: absolute;
 	top: 50%;
 	left: 22%;
+	z-index: 1000;
 }
 
 #proImg2{
@@ -264,6 +265,7 @@ button:hover{
 	position: absolute;
 	top: 80%;
 	left: 22%;
+	z-index: 1000;
 }
 
 #proImg3{
@@ -271,6 +273,11 @@ button:hover{
 	position: absolute;
 	top: 60%;
 	left: 40%;
+	z-index: 1000;
+}
+#prosI{
+	height: 60%;
+	margin: 10%;
 }
 
 
