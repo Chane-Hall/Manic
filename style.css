@@ -243,16 +243,7 @@ button:hover{
 	cursor: url("/Manic/images/Asset 18.png"), auto;
 }
 
-projB:hover{
-	cursor: url("images/cursor1.png"), auto;
-}
 
- aboutB:hover {
-	cursor: url("/Manic/tree/main/images/cursor1.png"), auto;
-}
-contactB:hover {
-	cursor: url("https://github.com/Chane-Hall/Manic/blob/main/images/cursor1.png?raw=true"), auto;
-}
 body:hover{
 	cursor: cell;	
 }
