@@ -254,20 +254,23 @@ button:hover{
 }
 #proImg1{
 	height: 80px;
-	margin-top: 10%;
-	margin-left: 10%;
+	position: absolute;
+	top: 20%;
+	left: 15%;
 }
 
 #proImg2{
 	height: 80px;
-	margin-top: 10%;
-	margin-left: 10%;
+	position: absolute;
+	top: 30%;
+	left: 15%;
 }
 
 #proImg3{
 	height: 80px;
-	margin-top: 10%;
-	margin-left: 10%;
+	position: absolute;
+	top: 25%;
+	left: 25%;
 }
 
 
