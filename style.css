@@ -239,8 +239,8 @@ video{
 }
 
 
-merchB:hover{
-	cursor: url("/Manic/images/cursor1.png"), auto;
+button:hover{
+	cursor: url("/Manic/images/Asset 18.png"), auto;
 }
 
 projB:hover{
