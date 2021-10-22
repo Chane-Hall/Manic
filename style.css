@@ -5,6 +5,7 @@ body {
 	overflow: hidden;
   	position: relative;
 	background-color: black;
+	cursor: url('images/cursor1.png'), auto;
 }
 
 .page{
@@ -236,4 +237,9 @@ video{
 	background-color: rgba(0,0,0,0);
 	border: 0px;
 	color: rgba(0,0,0,0);
+}
+
+
+merchB:hover, projB:hover, aboutB:hover, contactB:hover, a:hover, button:hover {
+	cursor: url('images/cursor2.png'), auto;	
 }
