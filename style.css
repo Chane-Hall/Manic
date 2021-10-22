@@ -241,6 +241,25 @@ video{
 
 button:hover{
 	cursor: pointer;
+	 /*url("/Manic/images/Asset 18.png"), auto;*/
 }
+#aboutImg{
+	height: 200px;
+}
+#merchImg1, #merchImg2, #merchImg3, #merchImg4, #merchImg5{
+	height: 200px;
+}
+#proImg1{
+	height: 200px;
+}
+
+#proImg2{
+	height: 200px;
+}
+
+#proImg3{
+	height: 200px;
+}
+
 
 
