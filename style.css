@@ -239,9 +239,13 @@ video{
 }
 
 
-merchB:hover, projB:hover, aboutB:hover, contactB:hover, a:hover, button:hover {
+merchB:hover, projB:hover{
 	cursor: url('https://github.com/Chane-Hall/Manic/tree/main/images/cursor1.png'), auto;
 }
-img:hover{
+
+ aboutB:hover, contactB:hover, a:hover, {
+	cursor: url('https://github.com/Chane-Hall/Manic/tree/main/images/cursor1.png'), auto;
+}
+body:hover{
 	cursor: cell;	
 }
