@@ -249,19 +249,28 @@ button:hover{
 	text-align:center;
 	margin-top: 300px;
 }
+#proC{
+	margin-top: 300px;
+}
 #merchImg1, #merchImg2, #merchImg3, #merchImg4, #merchImg5{
 	height: 200px;
 }
 #proImg1{
-	height: 200px;
+	height: 100px;
+	margin-top: 100px;
+	margin-left: 50px;
 }
 
 #proImg2{
-	height: 200px;
+	height: 100px;
+	margin-top: 300px;
+	margin-left: 50px;
 }
 
 #proImg3{
-	height: 200px;
+	height: 100px;
+	margin-top: 200px;
+	margin-left: 350px;
 }
 
 
