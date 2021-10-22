@@ -246,6 +246,8 @@ button:hover{
 #aboutImg{
 	height: 200px;
 }
+#aboutC{
+margin: auto;}
 #merchImg1, #merchImg2, #merchImg3, #merchImg4, #merchImg5{
 	height: 200px;
 }
