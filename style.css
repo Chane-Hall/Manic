@@ -240,10 +240,7 @@ video{
 
 
 button:hover{
-	cursor: url("/Manic/images/Asset 18.png"), auto;
+	cursor: pointer;
 }
 
 
-body:hover{
-	cursor: cell;	
-}
