@@ -107,6 +107,9 @@ function playvid15(){
 //video from projects to project 1
 var toproj1 = document.getElementById("toproj1v");
 function playvid8(){
+	 document.getElementById("proImg1").style.display = "none";
+	 document.getElementById("proImg2").style.display = "none";
+	 document.getElementById("proImg3").style.display = "none";
 	toproj1.style.display = "block";
 	toproj1.play();
 
@@ -119,6 +122,9 @@ function playvid8(){
 //video from projects to project 2
 var toproj2 = document.getElementById("toproj2v");
 function playvid9(){
+	 document.getElementById("proImg1").style.display = "none";
+	 document.getElementById("proImg2").style.display = "none";
+	 document.getElementById("proImg3").style.display = "none";
 	toproj2.style.display = "block";
 	toproj2.play();
 
@@ -131,6 +137,9 @@ function playvid9(){
 //video from projects to project 3
 var toproj3 = document.getElementById("toproj3v");
 function playvid10(){
+	 document.getElementById("proImg1").style.display = "none";
+	 document.getElementById("proImg2").style.display = "none";
+	 document.getElementById("proImg3").style.display = "none";
 	toproj3.style.display = "block";
 	toproj3.play();
 
