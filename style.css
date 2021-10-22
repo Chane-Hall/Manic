@@ -240,8 +240,7 @@ video{
 
 
 button:hover{
-	cursor: pointer;
-	 /*url("/Manic/images/Asset 18.png"), auto;*/
+	cursor: url("/Manic/images/cursor.png"), auto;
 }
 #aboutImg{
 	height: 200px;
