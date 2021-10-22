@@ -240,13 +240,14 @@ video{
 
 
 button:hover{
-	cursor: url("/Manic/images/cursor.png"), auto;
+	cursor: url("/Manic/images/cursor.png") 15 15, auto;
 }
 #aboutImg{
 	height: 200px;
 }
 #aboutC{
-margin: auto;}
+text-align:center;
+margin-top: 200px;}
 #merchImg1, #merchImg2, #merchImg3, #merchImg4, #merchImg5{
 	height: 200px;
 }
