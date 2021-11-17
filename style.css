@@ -239,6 +239,9 @@ video{
 }
 
 
+body:hover{
+	cursor: url("/Manic/images/cursor2.png") 15 15, pointer;
+}
 button:hover{
 	cursor: url("/Manic/images/cursor.png") 15 15, pointer;
 }
