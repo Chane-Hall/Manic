@@ -246,14 +246,16 @@ button:hover{
 	cursor: url("/Manic/images/cursor.png") 15 15, pointer;
 }
 #aboutImg{
-	height: 200px;
+	height: 400px;
+	text-align:center;
+	margin-top: 300px;
 }
 #aboutC{
 	text-align:center;
 	margin-top: 300px;
 }
 #merchImg1, #merchImg2, #merchImg3, #merchImg4, #merchImg5{
-	height: 200px;
+	height: 400px;
 }
 #proImg1{
 	height: 80px;
