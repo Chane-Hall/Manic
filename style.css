@@ -22,11 +22,10 @@ body {
 	right:0%;
 	left:0%;
 	height: 100%;
-	
 }
 
 
-/*MAIN MENU*/ 
+/*MAIN MENU*/
 
 #merchB{
 	position: absolute;
@@ -89,12 +88,11 @@ video{
 
 /*MERCH PAGE*/
 #merchtomain{
-	border-radius: 50%;
 	position: absolute;
 	z-index: 10;
 	top: 15%;
-	left: 14.5%;
-	width: 6%;
+	left: 10%;
+	width: 10%;
 	height: 12%;
 	background-color: rgba(0,0,0,0);
 	border: 0px;
@@ -103,38 +101,26 @@ video{
 
 /*ABOUT US PAGE*/
 #abouttomain{
-	border-radius: 50%;
 	position: absolute;
 	z-index: 10;
 	top: 13%;
-	left: 13.5%;
-	width: 7%;
+	left: 10%;
+	width: 10%;
 	height: 14%;
 	background-color: rgba(0,0,0,0);
 	border: 0px;
 	color: rgba(0,0,0,0);
 }
 
-#abouttomerch{
-	position: absolute;
-	z-index: 10;
-	top: 32%;
-	left: 77%;
-	width: 13%;
-	height: 22%;
-	background-color: rgba(0,0,0,0);
-	border: 0px;
-	color: rgba(0,0,0,0);
-}
+
 
 /*CONTACT PAGE*/
 #contacttomainB{
-	border-radius: 50%;
 	position: absolute;
 	z-index: 10;
 	top: 9%;
-	left: 23.5%;
-	width: 7%;
+	left: 18%;
+	width: 11%;
 	height: 12%;
 	background-color: rgba(0,0,0,0);
 	border: 0px;
@@ -148,7 +134,7 @@ video{
 	transform: rotate(-1deg);
 	z-index: 10;
 	top: 47%;
-	left: 17%;
+	left: 14%;
 	width: 18%;
 	height: 13%;
 	background-color: rgba(0,0,0,0);
@@ -161,7 +147,7 @@ video{
 	transform: rotate(-8deg);
 	z-index: 10;
 	top: 77%;
-	left: 17%;
+	left: 14%;
 	width: 17%;
 	height: 13%;
 	background-color: rgba(0,0,0,0);
@@ -174,21 +160,46 @@ video{
 	transform: rotate(-3deg);
 	z-index: 10;
 	top: 56%;
-	left: 36%;
-	width: 14%;
-	height: 17%;
+	left: 33%;
+	width: 15%;
+	height: 22%;
+	background-color: rgba(0,0,0,0);
+	border: 0px;
+	color: rgba(0,0,0,0);
+}
+
+#proj4B{
+	position: absolute;
+	transform: rotate(-3deg);
+	z-index: 10;
+	top: 67%;
+	left: 50%;
+	width: 10%;
+	height: 7%;
+	background-color: rgba(0,0,0,0);
+	border: 0px;
+	color: rgba(0,0,0,0);
+}
+
+#proj5B{
+	position: absolute;
+	transform: rotate(0.5deg);
+	z-index: 10;
+	top: 23%;
+	left: 60%;
+	width: 32%;
+	height: 43%;
 	background-color: rgba(0,0,0,0);
 	border: 0px;
 	color: rgba(0,0,0,0);
 }
 
 #projtomainB{
-	border-radius: 50%;
 	position: absolute;
 	z-index: 10;
 	top: 11%;
-	left: 15%;
-	width: 7%;
+	left: 10%;
+	width: 12%;
 	height: 14%;
 	background-color: rgba(0,0,0,0);
 	border: 0px;
@@ -198,13 +209,12 @@ video{
 
 /*PROJECT 1 PAGE*/
 #proj1toprojB{
-	border-radius: 50%;
 	position: absolute;
 	z-index: 10;
-	top: 34%;
-	left: 12%;
-	width: 9%;
-	height: 14%;
+	top: 10%;
+	left: 10%;
+	width: 11%;
+	height: 13%;
 	background-color: rgba(0,0,0,0);
 	border: 0px;
 	color: rgba(0,0,0,0);
@@ -212,13 +222,12 @@ video{
 
 /*PROJECT 2 PAGE*/
 #proj2toprojB{
-	border-radius: 50%;
 	position: absolute;
 	z-index: 10;
-	top: 34%;
-	left: 12%;
-	width: 9%;
-	height: 14%;
+	top: 10%;
+	left: 10%;
+	width: 11%;
+	height: 13%;
 	background-color: rgba(0,0,0,0);
 	border: 0px;
 	color: rgba(0,0,0,0);
@@ -226,12 +235,23 @@ video{
 
 /*PROJECT 3 PAGE*/
 #proj3toprojB{
-	border-radius: 50%;
 	position: absolute;
 	z-index: 10;
-	top: 12%;
-	left: 21%;
-	width: 7%;
+	top: 6%;
+	left: 10%;
+	width: 10%;
+	height: 11%;
+	background-color: rgba(0,0,0,0);
+	border: 0px;
+	color: rgba(0,0,0,0);
+}
+
+#proj4toprojB{
+	position: absolute;
+	z-index: 10;
+	top: 10%;
+	left: 9%;
+	width: 10%;
 	height: 11%;
 	background-color: rgba(0,0,0,0);
 	border: 0px;
@@ -239,21 +259,64 @@ video{
 }
 
 
+#proj5toprojB{
+	position: absolute;
+	z-index: 10;
+	top: 6%;
+	left: 10%;
+	width: 9%;
+	height: 11%;
+	background-color: rgba(0,0,0,0);
+	border: 0px;
+	color: rgba(0,0,0,0);
+}
+
+
+
 body:hover{
-	cursor: url("/Manic/images/cursor2.png") 15 15, pointer;
+	cursor: url("images/cursor2.png") 15 15, pointer;
 }
 button:hover{
-	cursor: url("/Manic/images/cursor.png") 15 15, pointer;
+	cursor: url("images/cursor.png") 15 15, pointer;
 }
+
 #aboutImg{
 	height: 300px;
 }
 #aboutC{
 	text-align:center;
-	margin-top: 300px;
+	margin-top: 20%;
 }
+
+#aboutproj{
+	text-align:center;
+	margin-top: 10%;
+}
+
+#aboutproj3{
+	text-align:center;
+	margin-top: 10%;
+
+}
+
+#aboutproj4{
+	text-align:center;
+	margin-top: 10%;
+}
+
+#aboutproj5{
+	text-align:center;
+	margin-top: 10%;
+}
+
+
+#merchC{
+	text-align:center;
+	margin-top: 22%;
+}
+
 #merchImg1, #merchImg2, #merchImg3, #merchImg4, #merchImg5{
-	height: 250px;
+	height: 70px;
 }
 #proImg1{
 	height: 80px;
@@ -284,5 +347,261 @@ button:hover{
 	margin-left: 30%;
 }
 
+#merchpage{
+	display: none;
+		z-index: 10000000000000000000000000;
+}
+
+#aboutpage{
+	display: none;
+	z-index: 10000000000000000000000000;
+}
+
+#contactpage{
+	display: none;
+	z-index: 100;
+}
+
+#projectpage{
+	display: none;
+	z-index: 100;
+}
+
+#proj1page{
+	display: none;
+	z-index: 100;
+}
+
+#proj2page{
+	display: none;
+	z-index: 100;
+}
+
+#proj3page{
+	display: none;
+	z-index: 100;
+}
+
+#proj4page{
+	display: none;
+	z-index: 100;
+}
+
+#proj5page{
+	display: none;
+	z-index: 100;
+}
+
+#about{
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+}
+
+#aboutp{
+	line-height: 1.5;
+	font-family: Helvetica;
+	border: 4px solid #fff;
+  	border-radius: 25px;
+  	padding: 30px;
+  	box-shadow: 0 0 3px #fff,
+              0 0 3px #fff,
+              0 0 10px #FF10F0,
+              0 0 7px #FF10F0,
+              0 0 10px #FF10F0,
+              inset 0 0 1.3rem #FF10F0;
+}
+
+#aboutImg{
+	height: 200px;
+}
+
+#merch{
+	text-align: center;
+	display: inline-block;
+	width: 52vw;
+	border: 4px solid #fff;
+  	border-radius: 25px;
+  	padding: 5px;
+  	box-shadow: 0 0 3px #fff,
+              0 0 3px #fff,
+              0 0 10px #1F51FF,
+              0 0 7px #1F51FF,
+              0 0 10px #1F51FF,
+              inset 0 0 1.3rem #1F51FF;
+}
+
+#grid
+{
+	text-align: center;
+	display: inline-block;
+	padding: 7px;
+}
+
+#merchp{
+	font-size: 12px;
+	font-family: Helvetica;
+	line-height: 1.5;
+}
+
+#aboutp1{
+	background-color: rgba(0, 0, 0, 0.7);
+	overflow-y: scroll;
+	height: 54vh;
+	text-align: center;
+	display: inline-block;
+	width: 55vw;
+	border: 4px solid #fff;
+  	border-radius: 25px;
+  	padding: 15px;
+  	box-shadow: 0 0 3px #fff,
+              0 0 3px #fff,
+              0 0 10px #FF10F0,
+              0 0 7px #FF10F0,
+              0 0 10px #FF10F0,
+              inset 0 0 1.3rem #FF10F0;
+}
+
+#aboutp3{
+	background-color: rgba(0, 0, 0, 0.7);
+	overflow-y: scroll;
+	height: 60vh;
+	text-align: center;
+	display: inline-block;
+	width: 55vw;
+	border: 4px solid #fff;
+  	border-radius: 25px;
+  	padding: 15px;
+  	box-shadow: 0 0 3px #fff,
+              0 0 3px #fff,
+              0 0 10px #FF10F0,
+              0 0 7px #FF10F0,
+              0 0 10px #FF10F0,
+              inset 0 0 1.3rem #FF10F0;
+}
+
+#aboutp4{
+	background-color: rgba(0, 0, 0, 0.7);
+	overflow-y: scroll;
+	height: 80vh;
+	text-align: center;
+	display: inline-block;
+	width: 55vw;
+	border: 4px solid #fff;
+  	border-radius: 25px;
+  	padding: 15px;
+  	box-shadow: 0 0 3px #fff,
+              0 0 3px #fff,
+              0 0 10px #FF10F0,
+              0 0 7px #FF10F0,
+              0 0 10px #FF10F0,
+              inset 0 0 1.3rem #FF10F0;
+}
+
+#aboutp5{
+	background-color: rgba(0, 0, 0, 0.7);
+	overflow-y: scroll;
+	height: 63vh;
+	text-align: center;
+	display: inline-block;
+	width: 50vw;
+	border: 4px solid #fff;
+  	border-radius: 25px;
+  	padding: 15px;
+  	box-shadow: 0 0 3px #fff,
+              0 0 3px #fff,
+              0 0 10px #FF10F0,
+              0 0 7px #FF10F0,
+              0 0 10px #FF10F0,
+              inset 0 0 1.3rem #FF10F0;
+}
 
 
+#aboutp1p{
+	font-family: Helvetica;
+	line-height: 1.5;
+	padding: 5px;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+#ff{
+	padding: 10px;
+	height: 150px;
+
+}
+
+#gl{
+	padding: 10px;
+	height: 200px;
+
+}
+
+#bp{
+	padding: 10px;
+	height: 400px;
+
+}
+
+#con{
+	font-family: Helvetica;
+}
+
+.load-wrapp {
+  position:fixed;
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  text-align: center;
+	align-items:center;
+	justify-content: center;
+  background-color: #222222;
+}
+.bar {
+
+  width: 30px;
+  height: 6px;
+  border-radius: 2px;
+  background-color: #FF10F0;
+}
+.load{
+	display:inline-block;
+	position: relative;
+	left:-80px;
+}
+.load .bar {
+  animation: loadingbar 2s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
+}
+	@keyframes loadingbar {
+	  0%,
+	  100% {
+	    transform: translate(0, 0);
+	  }
+
+	  50% {
+	    transform: translate(80px, 0);
+	    background-color: #f5634a;
+	    width: 25px;
+	  }
+	}

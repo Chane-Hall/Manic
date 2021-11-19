@@ -4,43 +4,307 @@
 		<meta charset="utf-8">
 		<title>Manic</title>
 		<link rel="stylesheet" href="style.css">
-		<script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
-		<script src="https://unpkg.com/@swup/preload-plugin@latest/dist/SwupPreloadPlugin.js"></script>
-		<script type="module" src="/Manic/preload.js"></script>
-		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	</head>
 
 <body>
-	<main id="swup" class="page">
-		<img id="background" src="/Manic/images/MainMenu.png" alt="background">
+	<div class="load-wrapp">
+		<div class="load">
+			<div class="bar"></div>
+		</div>
+	</div>
 
-		<video id="maintomerchv" playsinline muted>
-			<source src="/Manic/videos/maintomerch.mp4" type="video/mp4">
-		</video>
+		<main class="page">
 
-		<video id="maintoaboutv" playsinline>
-			<source src="/Manic/videos/maintoabout.mp4" type="video/mp4">
-		</video>
+			<img id="background" src="images/MainMenu.png" alt="background">
 
-		<video id="maintoprojectsv" playsinline muted>
-			<source src="/Manic/videos/maintoprojects.mp4" type="video/mp4">
-		</video>
+			<video id="maintomerchv" playsinline muted>
+				<source src="videos/maintomerch.mp4" type="video/mp4">
+			</video>
 
-		<video id="maintocontactv" playsinline muted>
-			<source src="/Manic/videos/maintocontact.mp4" type="video/mp4">
-		</video>
+			<video id="maintoaboutv" playsinline>
+				<source src="videos/maintoabout.mp4" type="video/mp4">
+			</video>
 
-		<button onclick="playvid1()" id="merchB" type="button">merch</button>
-		<button onclick="playvid2()" id="aboutB" type="button">about</button>
-		<button onclick="playvid3()" id="projB" type="button">project</button>
-		<button onclick="playvid4()" id="contactB" type="button">contact</button>
-		
-		<a href="/Manic/pages/merch.html" data-swup-preload></a>
-		<a href="/Manic/pages/about.html" data-swup-preload></a>
-		<a href="/Manic/pages/project.html" data-swup-preload></a>
-		<a href="/Manic/pages/contact.html" data-swup-preload></a>
-		
+			<video id="maintoprojectsv" playsinline muted>
+				<source src="videos/maintoproj.mp4" type="video/mp4">
+			</video>
+
+			<video id="maintocontactv" playsinline muted>
+				<source src="videos/maintocontact.mp4" type="video/mp4">
+			</video>
+			<div id="homepage">
+				<button onclick="playvid1()" id="merchB" type="button">merch</button>
+				<button onclick="playvid2()" id="aboutB" type="button">about</button>
+				<button onclick="playvid3()" id="projB" type="button">project</button>
+				<button onclick="playvid4()" id="contactB" type="button">contact</button>
+			</div></main>
+
+		<div id="merchpage">
+			<main class="page">
+				<img id="background" src="images/Merch.png" alt="hi">
+
+
+      			<video id="merchtomainv" playsinline>
+					<source src="videos/merchtomain.mp4" type="video/mp4">
+				</video>
+
+
+      			<button onclick="playvid5()" id="merchtomain" type="button">Menu</button>
+					<a href="/Manic/index.html" data-swup-preload></a>
+						<div id="merchC">
+							<!--<img id="merchImg1" src="images/cmerch.png" alt="hi">-->
+							<div id="merch" class="animate__animated animate__fadeInUp">
+							<div id="grid">
+								<img id="merchImg1" src="images/a1t.png" alt="hi">
+								<p id="merchp">Manic USB Flashdrive 64GB <br/> <b>R200</b></p>
+							</div>
+							<div id="grid">
+								<img id="merchImg2" src="images/a2t.png" alt="hi">
+								<p id="merchp">Manic Bluetooth Speaker <br/> <b>R400</b></p>
+							</div>
+							<div id="grid">
+								<img id="merchImg3" src="images/a3t.png" alt="hi">
+								<p id="merchp">Manic Travel Mug <br/> <b>R180</b></p>
+							</div>
+
+							<div id="grid">
+								<img id="merchImg4" src="images/a4t.png" alt="hi">
+								<p id="merchp">Manic Water Bottle 1L <br/> <b>R190</b></p>
+							</div>
+							<div id="grid">
+								<img id="merchImg5" src="images/a5t.png" alt="hi">
+								<p id="merchp">Manic Grey T-Shirt <br/> <b>R230</b></p>
+							</div>
+							</div>
+
+						</div>
+			</main>
+		</div>
+
+		<div id="aboutpage">
+			<main class="page">
+      			<img id="background" src="images/AboutUs.png" alt="hi">
+
+      			<video id="abouttomainv" playsinline muted>
+					<source src="videos/abouttomain.mp4" type="video/mp4">
+				</video>
+
+
+      			<button onclick="playvid6()" id="abouttomain" type="button">menu</button>
+					<a href="/Manic/index.html" data-swup-preload></a>
+				<div id="aboutC">
+					<div id="about" class="animate__animated animate__fadeInUp">
+						<p id="aboutp">We are a technology company that aims to embrace the digital age.  We believe that the products we produce incorporate the latest multimedia technologies We are constantly inspired by leading edge systems and hope to indicate this through our website. We hope to create enthusiasm about the future of technology. <br/>For further information please contact us at manic.info@gmail.com
+						<br/>
+						<br/>
+						<img id="aboutImg" src="images/christoff.jpeg" alt="hi">
+						<img id="aboutImg" src="images/chane.png" alt="hi">
+						<img id="aboutImg" src="images/nicole.png" alt="hi">
+						</p>
+
+					</div>
+				</div>
+    		</main>
+		</div>
+
+		<div id="contactpage">
+			<main class="page">
+      			<img id="background" src="images/Contact.png">
+
+      			<video id="contacttomainv" playsinline muted>
+					<source src="videos/contacttomain.mp4" type="video/mp4">
+				</video>
+
+				<button onclick="playvid7()" id="contacttomainB" type="button">main</button>
+				<a href="index.html" data-swup-preload></a>
+				<div id="aboutC" class="animate__animated animate__fadeInUp">
+						<h2>Email: manic.info@gmail.com</h2>
+						<h2><a href="https://api.whatsapp.com/send/?phone=27848162213&text&app_absent=0">Whatsapp</a></h2>
+				</div>
+    		</main>
+		</div>
+
+		<div id="projectpage">
+			<main class="page">
+      			<img id="background" src="images/Projects.png" alt="hi">
+
+				<video id="projtomainv" playsinline muted>
+					<source src="videos/projtomain.mp4" type="video/mp4">
+				</video>
+
+				<div id="homeb">
+				<button onclick="playvid8()" id="projtomainB" type="button">main</button>
+				</div>
+
+				<video id="toproj1v" playsinline muted>
+					<source src="videos/toproj1.mp4" type="video/mp4">
+				</video>
+
+				<video id="toproj2v" playsinline>
+					<source src="videos/toproj2.mp4" type="video/mp4">
+				</video>
+
+				<video id="toproj3v" playsinline muted>
+					<source src="videos/toproj3.mp4" type="video/mp4">
+				</video>
+
+				<video id="toproj4v" playsinline muted>
+					<source src="videos/toproj4.mp4" type="video/mp4">
+				</video>
+
+				<video id="toproj5v" playsinline muted>
+					<source src="videos/toproj5.mp4" type="video/mp4">
+				</video>
+
+				<div id="projbuttons">
+				<button onclick="playvid9()" id="proj1B" type="button">project1</button>
+				<button onclick="playvid10()" id="proj2B" type="button">project2</button>
+				<button onclick="playvid11()" id="proj3B" type="button">project3</button>
+				<button onclick="playvid12()" id="proj4B" type="button">project3</button>
+				<button onclick="playvid13()" id="proj5B" type="button">project3</button>
+				</div>
+
+    		</main>
+		</div>
+
+		<div id="proj1page">
+			<main class="page">
+				<img id="background" src="images/Project1.png" alt="hi">
+
+				<video id="proj1toprojv" playsinline muted>
+					<source src="videos/backproj1.mp4" type="video/mp4">
+				</video>
+
+				<button onclick="playvid14()" id="proj1toprojB" type="button">main</button>
+
+				<div id="aboutproj" class="animate__animated animate__fadeInUp">
+					<div id="aboutp1">
+						<h2>Food Fight</h2><br/>
+						<p id="aboutp1p"><br/>
+							Food Fight is a third person action RPG inspired by the likes of Mega Man and Dark Souls.<br/>
+							It follows the journey of an aspiring chef who must battle local restaurant owners to earn their blessing before he can open an establishment of his own.
+							<br/>
+							<br/>
+							<img id="ff" src="images/foodfight2.png" alt="hi">
+							<img id="ff" src="images/foodfight1.png" alt="hi">
+							<img id="ff" src="images/foodfight3.png" alt="hi">
+						</p>
+					</div>
+				</div>
+			</main>
+		</div>
+
+		<div id="proj2page">
+			<main class="page">
+				<img id="background" src="images/Project2.png" alt="hi">
+
+				<video id="proj2toprojv" playsinline muted>
+					<source src="videos/backproj2.mp4" type="video/mp4">
+				</video>
+
+				<button onclick="playvid15()" id="proj2toprojB" type="button">main</button>
+
+				<div id="aboutproj" class="animate__animated animate__fadeInUp">
+					<div id="aboutp1">
+						<h2>AKAI </h2><br/>
+						<p id="aboutp1p"><br/>
+								For the Japanese, who know so much and intuit more, human relations are predestined by a red string that the gods tie to the pinky fingers of those who find each other in life. Legend has it that the two people connected by this thread will have an important story, regardless of the time, place or circumstances. Our short film explores this belief.
+								<br/>
+								When Jo discovers he has red string connected to his pinky, he is led on a journey to discover who, or what lies on the other end. You can watch our film here <a href=”https://youtu.be/J1aV5LT0T5E”>here.</a>
+								<br/>
+								<br/>
+								<img id="gl" src="images/fate1.png" alt="hi">
+								<img id="gl" src="images/fate2.png" alt="hi">
+						</p>
+					</div>
+				</div>
+
+			</main>
+		</div>
+
+		<div id="proj3page">
+			<main class="page">
+				<img id="background" src="images/Project3.png" alt="hi">
+
+				<video id="proj3toprojv" playsinline muted>
+					<source src="videos/backproj3.mp4" type="video/mp4">
+				</video>
+
+				<button onclick="playvid16()" id="proj3toprojB" type="button">main</button>
+
+				<div id="aboutproj3" class="animate__animated animate__fadeInUp">
+					<div id="aboutp3">
+						<h2>Recycle Your Cubes</h2><br />
+						<p id="aboutp1p"><br/>
+						Recycle Your Cubes is an animated short film exploring Blender’s viral in-joke about the default cube always being deleted before you can truly start to use the software.
+						The animation details the journey of the default cube after its deletion and its use in a mysterious process for some higher purpose.
+						<br/>The animation is available to  view <a href=”https://www.youtube.com/watch?v=pxP-WvIjrmc”>here.</a>
+						<br/>
+						<br/>
+						<img id="gl" src="images/cubes1.png" alt="hi">
+						<img id="gl" src="images/cubes2.png" alt="hi">
+						</p>
+					</div>
+				</div>
+			</main>
+		</div>
+
+		<div id="proj4page">
+			<main class="page">
+				<img id="background" src="images/Project4.png" alt="hi">
+
+				<video id="proj4toprojv" playsinline muted>
+					<source src="videos/backproj4.mp4" type="video/mp4">
+				</video>
+
+				<button onclick="playvid17()" id="proj4toprojB" type="button">main</button>
+
+				<div id="aboutproj4" class="animate__animated animate__fadeInUp">
+					<div id="aboutp4">
+						<h2>Build Planner 5e</h2><br />
+						<p id="aboutp1p"><br/>
+						Build Planner 5e is a web application designed to help players of Dungeons And Dragons 5th Edition to plan, build, and maintain their player characters. The application allows players to plan ahead and build a solid vision of what their player character will turn out to be and doubles as a mobile character sheet that can be used while playing, circumventing the age old blunder of leaving your sheets at home.
+						<br/>
+						<br/>
+						<img id="bp" src="images/bp1.png" alt="hi">
+						<img id="bp" src="images/bp2.png" alt="hi">
+						</p>
+					</div>
+				</div>
+			</main>
+		</div>
+
+		<div id="proj5page">
+			<main class="page">
+				<img id="background" src="images/Project5.png" alt="hi">
+
+				<video id="proj5toprojv" playsinline muted>
+					<source src="videos/backproj5.mp4" type="video/mp4">
+				</video>
+
+				<button onclick="playvid18()" id="proj5toprojB" type="button">main</button>
+
+				<div id="aboutproj5" class="animate__animated animate__fadeInUp">
+					<div id="aboutp5">
+						<h2>Gnolab</h2><br />
+						<p id="aboutp1p"><br/>
+						Gnolab is a puzzle platformer developed for the October 2nd Ludum Dare game jam.
+						Based on the prompt, Unstable, the game follows a Gnome in a laboratory, completing puzzles by collecting ingredients and combining them to make potions with wildly differing effects.
+						Gnolab was finished within 48 hours and placed in the top 50% overall out of 3000 submissions.
+						It is available to play <a href=”https://ldjam.com/events/ludum-dare/49/gnolab”>here.</a>
+						<br/>
+						<br/>
+							<img id="gl" src="images/gnolab1.png" alt="hi">
+							<img id="gl" src="images/gnolab2.png" alt="hi">
+						</p>
+					</div>
+				</div>
+			</main>
+		</div>
+
 	</main>
-	<script src="/Manic/script.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>
